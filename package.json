@@ -1,0 +1,29 @@
+{
+  "name": "js_helper",
+  "version": "1.0.0",
+  "description": "Js Helper Minify",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd dist && browser-sync start --server --file *.html --watch --port 8080",
+    "dev": "watchify src/index.js -o dist/tiehelper.js -v",
+    "build": "simplifyify src/index.js -o dist/tie.helper.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taiphanjs/minify-helper.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taiphanjs/minify-helper/issues"
+  },
+  "homepage": "https://github.com/taiphanjs/minify-helper#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "lodash": "^4.17.15",
+    "moment": "^2.24.0",
+    "simplifyify": "^7.0.5",
+    "watchify": "^3.11.1"
+  }
+}
