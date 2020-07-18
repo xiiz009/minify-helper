@@ -21,7 +21,7 @@
   "homepage": "https://github.com/taiphanjs/minify-helper#readme",
   "devDependencies": {
     "browser-sync": "^2.26.7",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "moment": "^2.24.0",
     "simplifyify": "^7.0.5",
     "watchify": "^3.11.1"
